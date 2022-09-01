@@ -37,9 +37,11 @@
    
   </tbody>
 </table>
-        <button id="table_form_button" type="submit" value="Submit">Submit</button>
+        <button id="table_form_button" type="submit" align-item="center" value="Submit">Submit</button>
+        
          <%--<asp:button ID="Button2" class="button"  runat="server" OnClick="table_entry"  Text="Submit"/>--%>
-        </form>
+        </form><br />
+    <button id="homepage"><a href="charts.aspx">Back to Homepage</a></button>
 </body>
     <script>
         $(document).ready(function () {
@@ -54,7 +56,7 @@
             $('#balance').val(str_reponsetext.data);
             global_balance = str_reponsetext.data;
         })
-        console.log("Jeevitha");
+        console.log("Jeevi");
         let global_balance = 0;
         $('#addrow').click(() => {
             

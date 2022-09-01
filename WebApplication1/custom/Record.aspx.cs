@@ -21,7 +21,7 @@ namespace WebApplication1
             connetionString = "Data Source=172.16.12.14;Initial Catalog=jeevitha_pettycash_manager;User Id=training1;Password=Karomi@123";
             cnn = new SqlConnection(connetionString);
             cnn.Open();
-                string str_query = "select SUM(cast(income as INT)) as Income,SUM(cast(expense as INT)) as Expense from pettycash  with(nolock)";
+                string str_query = "select * from pettycash  with(nolock)";
                 SqlCommand cmd = new SqlCommand(str_query, cnn);
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(dataSet);

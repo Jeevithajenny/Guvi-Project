@@ -175,14 +175,12 @@ ro
               <span class="line line3"></span>
             </div>  
           <div class="logo">
-            <h1>Navbar</h1>
+            <h1>Pettycash Manager</h1>
           </div>
           <div class="menu-items">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">blogs</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="charts.aspx">Chart</a></li>
+            <li><a href="Dashboard.aspx">Dashboard</a></li>
+            <li><a href="Record.aspx">Records</a></li>
           </div>
         </div>
       </div>
